@@ -53,7 +53,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -237,3 +237,26 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px){
+  h1{ 
+    color: rebeccapurple; }
+}
+
+@media screen and (max-width: 768px){
+  body{ 
+    color: green;
+    background: black; }
+}
+
+@media screen and (max-width: 640px){
+  #logo{ 
+    background: #aa4a4f; }
+}
+
+@media screen and (min-width: 640px){
+  header{
+    position:fixed; }
+}
+
+
